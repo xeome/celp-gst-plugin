@@ -129,7 +129,7 @@ static void gst_celp_enc_class_init(GstCelpEncClass* klass) {
                                                          FALSE, G_PARAM_READWRITE | G_PARAM_STATIC_STRINGS));
 
     gst_element_class_set_static_metadata(element_class, "CELP Audio Encoder", "Codec/Encoder/Audio",
-                                          "Encodes audio in CELP format", "Your Name <your.email@example.com>");
+                                          "Encodes audio in CELP format", "Emin xeome@proton.me");
 
     static GstStaticPadTemplate sink_template = GST_STATIC_PAD_TEMPLATE("sink", GST_PAD_SINK, GST_PAD_ALWAYS,
                                                                         GST_STATIC_CAPS("audio/x-raw, "
