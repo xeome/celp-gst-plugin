@@ -190,6 +190,19 @@ cmake --build build --parallel $(nproc)
 ls -la build/libgstcelp.so
 ```
 
+</details>
+
+### **Verification**
+
+```bash
+# Test plugin registration
+gst-inspect-1.0 celpenc
+gst-inspect-1.0 celpdec
+
+# Run comprehensive test suite
+./test-mic-celp.sh
+```
+
 [🔝 Back to top](#)
 
 ---
