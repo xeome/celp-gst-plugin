@@ -1,0 +1,56 @@
+/* vim: set tabstop=4:softtabstop=4:shiftwidth=4:noexpandtab */
+
+#include "autohf.h"
+#include "bwexp.h"
+#include "cbsearch.h"
+#include "cgain.h"
+#include "clip.h"
+#include "confg.h"
+#include "cor.h"
+#include "csub.h"
+#include "dcodcbg.h"
+#include "dcodcbi.h"
+#include "dcodpg.h"
+#include "dcodtau.h"
+#include "delay.h"
+#include "durbin.h"
+#include "gaincode.h"
+#include "ham.h"
+#ifdef PROTECT
+#include "hamming.h"
+#endif
+#include "impulse.h"
+#include "intanaly.h"
+#include "intsynth.h"
+#include "ldelay.h"
+#include "lsp34.h"
+#include "lsptopc.h"
+#ifdef PROTECT
+#include "mtrxgen.h"
+#endif
+#include "mexcite.h"
+#include "movefr.h"
+#include "pack.h"
+#include "packtau.h"
+#include "pctolsp2.h"
+#include "pctorc.h"
+#include "pgain.h"
+#include "ptcode.h"
+#include "pitchvq.h"
+#include "polefilt.h"
+#include "postfilt.h"
+#include "prefilt.h"
+#include "psearch.h"
+#include "round.h"
+#include "setr.h"
+#ifdef PROTECT
+#include "smcbg.h"
+#include "smpg.h"
+#include "smt.h"
+#endif
+#include "unpack.h"
+#ifdef PROTECT
+#include "variance.h"
+#endif
+#include "vdecode.h"
+#include "zerofilt.h"
